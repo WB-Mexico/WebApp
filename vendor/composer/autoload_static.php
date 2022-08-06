@@ -19,23 +19,24 @@ class ComposerStaticInitfd989d6b446da102611042169d37513c
         '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
         '23c18046f52bef3eea034657bafda50f' => __DIR__ . '/..' . '/symfony/polyfill-php81/bootstrap.php',
-        '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
-        '9cdd7b9056abc3081735233ba9dd9c7f' => __DIR__ . '/..' . '/facade/flare-client-php/src/helpers.php',
-        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
-        'f18cc91337d49233e5754e93f3ed9ec3' => __DIR__ . '/..' . '/laravelcollective/html/src/helpers.php',
-        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '538ca81a9a966a6716601ecf48f4eaef' => __DIR__ . '/..' . '/opis/closure/functions.php',
-        '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
+        '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
-        'ed962a97bd972bc82007176b647d4e36' => __DIR__ . '/..' . '/facade/ignition/src/helpers.php',
-        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        '9cdd7b9056abc3081735233ba9dd9c7f' => __DIR__ . '/..' . '/facade/flare-client-php/src/helpers.php',
+        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         '265b4faa2b3a9766332744949e83bf97' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Collections/helpers.php',
         'c7a3c339e7e14b60e06a2d7fcce9476b' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Events/functions.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
+        '17d016dc52a631c1e74d2eb8fdd57342' => __DIR__ . '/..' . '/laravel/helpers/src/helpers.php',
+        'f18cc91337d49233e5754e93f3ed9ec3' => __DIR__ . '/..' . '/laravelcollective/html/src/helpers.php',
+        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
+        'ed962a97bd972bc82007176b647d4e36' => __DIR__ . '/..' . '/facade/ignition/src/helpers.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
     );
 
@@ -51,6 +52,7 @@ class ComposerStaticInitfd989d6b446da102611042169d37513c
         'j' => 
         array (
             'jeremykenedy\\laravelusers\\' => 26,
+            'jeremykenedy\\LaravelRoles\\' => 26,
         ),
         'W' => 
         array (
@@ -90,6 +92,7 @@ class ComposerStaticInitfd989d6b446da102611042169d37513c
             'Symfony\\Component\\ErrorHandler\\' => 31,
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
+            'Seedster\\' => 9,
         ),
         'R' => 
         array (
@@ -198,6 +201,10 @@ class ComposerStaticInitfd989d6b446da102611042169d37513c
         'jeremykenedy\\laravelusers\\' => 
         array (
             0 => __DIR__ . '/..' . '/jeremykenedy/laravel-users/src',
+        ),
+        'jeremykenedy\\LaravelRoles\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src',
         ),
         'Whoops\\' => 
         array (
@@ -318,6 +325,10 @@ class ComposerStaticInitfd989d6b446da102611042169d37513c
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Seedster\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/eklundkristoffer/seedster/src',
         ),
         'Ramsey\\Uuid\\' => 
         array (
@@ -4724,6 +4735,10 @@ class ComposerStaticInitfd989d6b446da102611042169d37513c
         'SebastianBergmann\\Type\\UnknownType' => __DIR__ . '/..' . '/sebastian/type/src/type/UnknownType.php',
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/type/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'Seedster\\ArtisanServiceProvider' => __DIR__ . '/..' . '/eklundkristoffer/seedster/src/ArtisanServiceProvider.php',
+        'Seedster\\Commands\\SeedCommand' => __DIR__ . '/..' . '/eklundkristoffer/seedster/src/Commands/SeedCommand.php',
+        'Seedster\\Handlers\\SeedHandler' => __DIR__ . '/..' . '/eklundkristoffer/seedster/src/Handlers/SeedHandler.php',
+        'Seedster\\SeedsterServiceProvider' => __DIR__ . '/..' . '/eklundkristoffer/seedster/src/SeedsterServiceProvider.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\Attribute\\AsCommand' => __DIR__ . '/..' . '/symfony/console/Attribute/AsCommand.php',
@@ -5549,6 +5564,42 @@ class ComposerStaticInitfd989d6b446da102611042169d37513c
         'Whoops\\Util\\Misc' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/Misc.php',
         'Whoops\\Util\\SystemFacade' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
         'Whoops\\Util\\TemplateHelper' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
+        'jeremykenedy\\LaravelRoles\\App\\Exceptions\\AccessDeniedException' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/App/Exceptions/AccessDeniedException.php',
+        'jeremykenedy\\LaravelRoles\\App\\Exceptions\\LevelDeniedException' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/App/Exceptions/LevelDeniedException.php',
+        'jeremykenedy\\LaravelRoles\\App\\Exceptions\\PermissionDeniedException' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/App/Exceptions/PermissionDeniedException.php',
+        'jeremykenedy\\LaravelRoles\\App\\Exceptions\\RoleDeniedException' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/App/Exceptions/RoleDeniedException.php',
+        'jeremykenedy\\LaravelRoles\\App\\Http\\Controllers\\Api\\LaravelRolesApiController' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/App/Http/Controllers/Api/LaravelRolesApiController.php',
+        'jeremykenedy\\LaravelRoles\\App\\Http\\Controllers\\LaravelPermissionsController' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/App/Http/Controllers/LaravelPermissionsController.php',
+        'jeremykenedy\\LaravelRoles\\App\\Http\\Controllers\\LaravelRolesController' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/App/Http/Controllers/LaravelRolesController.php',
+        'jeremykenedy\\LaravelRoles\\App\\Http\\Controllers\\LaravelRolesDeletedController' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/App/Http/Controllers/LaravelRolesDeletedController.php',
+        'jeremykenedy\\LaravelRoles\\App\\Http\\Controllers\\LaravelpermissionsDeletedController' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/App/Http/Controllers/LaravelpermissionsDeletedController.php',
+        'jeremykenedy\\LaravelRoles\\App\\Http\\Middleware\\VerifyLevel' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/App/Http/Middleware/VerifyLevel.php',
+        'jeremykenedy\\LaravelRoles\\App\\Http\\Middleware\\VerifyPermission' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/App/Http/Middleware/VerifyPermission.php',
+        'jeremykenedy\\LaravelRoles\\App\\Http\\Middleware\\VerifyRole' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/App/Http/Middleware/VerifyRole.php',
+        'jeremykenedy\\LaravelRoles\\App\\Http\\Requests\\StorePermissionRequest' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/App/Http/Requests/StorePermissionRequest.php',
+        'jeremykenedy\\LaravelRoles\\App\\Http\\Requests\\StoreRoleRequest' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/App/Http/Requests/StoreRoleRequest.php',
+        'jeremykenedy\\LaravelRoles\\App\\Http\\Requests\\UpdatePermissionRequest' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/App/Http/Requests/UpdatePermissionRequest.php',
+        'jeremykenedy\\LaravelRoles\\App\\Http\\Requests\\UpdateRoleRequest' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/App/Http/Requests/UpdateRoleRequest.php',
+        'jeremykenedy\\LaravelRoles\\App\\Services\\PermissionFormFields' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/App/Services/PermissionFormFields.php',
+        'jeremykenedy\\LaravelRoles\\App\\Services\\RoleFormFields' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/App/Services/RoleFormFields.php',
+        'jeremykenedy\\LaravelRoles\\Contracts\\HasRoleAndPermission' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/Contracts/HasRoleAndPermission.php',
+        'jeremykenedy\\LaravelRoles\\Contracts\\PermissionHasRelations' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/Contracts/PermissionHasRelations.php',
+        'jeremykenedy\\LaravelRoles\\Contracts\\RoleHasRelations' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/Contracts/RoleHasRelations.php',
+        'jeremykenedy\\LaravelRoles\\Database\\Database' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/Database/Database.php',
+        'jeremykenedy\\LaravelRoles\\Database\\Seeders\\DefaultConnectRelationshipsSeeder' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/Database/Seeders/DefaultConnectRelationshipsSeeder.php',
+        'jeremykenedy\\LaravelRoles\\Database\\Seeders\\DefaultPermissionsTableSeeder' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/Database/Seeders/DefaultPermissionsTableSeeder.php',
+        'jeremykenedy\\LaravelRoles\\Database\\Seeders\\DefaultRolesTableSeeder' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/Database/Seeders/DefaultRolesTableSeeder.php',
+        'jeremykenedy\\LaravelRoles\\Database\\Seeders\\DefaultUsersTableSeeder' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/Database/Seeders/DefaultUsersTableSeeder.php',
+        'jeremykenedy\\LaravelRoles\\Models\\Permission' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/Models/Permission.php',
+        'jeremykenedy\\LaravelRoles\\Models\\Role' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/Models/Role.php',
+        'jeremykenedy\\LaravelRoles\\RolesFacade' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/RolesFacade.php',
+        'jeremykenedy\\LaravelRoles\\RolesServiceProvider' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/RolesServiceProvider.php',
+        'jeremykenedy\\LaravelRoles\\Traits\\HasRoleAndPermission' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/Traits/HasRoleAndPermission.php',
+        'jeremykenedy\\LaravelRoles\\Traits\\PermissionHasRelations' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/Traits/PermissionHasRelations.php',
+        'jeremykenedy\\LaravelRoles\\Traits\\RoleHasRelations' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/Traits/RoleHasRelations.php',
+        'jeremykenedy\\LaravelRoles\\Traits\\RolesAndPermissionsHelpersTrait' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/Traits/RolesAndPermissionsHelpersTrait.php',
+        'jeremykenedy\\LaravelRoles\\Traits\\RolesUsageAuthTrait' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/Traits/RolesUsageAuthTrait.php',
+        'jeremykenedy\\LaravelRoles\\Traits\\Slugable' => __DIR__ . '/..' . '/jeremykenedy/laravel-roles/src/Traits/Slugable.php',
         'jeremykenedy\\laravelusers\\App\\Http\\Controllers\\UsersManagementController' => __DIR__ . '/..' . '/jeremykenedy/laravel-users/src/App/Http/Controllers/UsersManagementController.php',
         'jeremykenedy\\laravelusers\\LaravelUsersFacade' => __DIR__ . '/..' . '/jeremykenedy/laravel-users/src/LaravelUsersFacade.php',
         'jeremykenedy\\laravelusers\\LaravelUsersServiceProvider' => __DIR__ . '/..' . '/jeremykenedy/laravel-users/src/LaravelUsersServiceProvider.php',
